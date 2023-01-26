@@ -35,17 +35,17 @@ body{
 
 
 .logo a span .m{
-    color: aqua;
+    color: black;
 }
 
-.header .navbar{
+.header .navbar a{
     font-size: 16px;
     color: black;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .sub-header .image{
-    object-fit: center;
+    object-fit: cover;
     max-height: 200px;
     width: 100%;
 }
@@ -77,3 +77,4 @@ body{
     font-size: 36px;
     line-height: 44px;
  }
+ 
