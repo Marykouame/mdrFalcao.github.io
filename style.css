@@ -95,3 +95,55 @@ body{
 .btn:hover{
     background: linear-gradient rgb(238, 135, 9), rgb(187, 218, 50);
 }
+
+main .main1{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    gap:1rem;
+}
+main .main1 .collum-droite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main .main1 .collum-milieu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main .main1 .collum-milieu .para{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+footer .pied{
+    background: black;
+    display: grid;
+    align-items: center;
+    grid-template-columns:auto auto ;
+    width: 100%;
+    height: 100px;
+}
+footer .pied .contact a{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 20px;
+    margin-left: 100px;
+}
+
+footer .pied .info a{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
