@@ -25,56 +25,73 @@ body{
     right: 0;
     z-index: 1000;
     background-color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
-.logo a span .m{
-    color: black;
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
 .header .navbar a{
-    font-size: 16px;
     color: black;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
 }
-
 .sub-header .image{
     object-fit: cover;
-    max-height: 200px;
+    max-height: 100%;
     width: 100%;
 }
 .sub-header .image img{
     width: 100%;
-    height: 900px;
+    height: 35rem;
 }
 
 .sub-header .header-bloc{
     position: absolute;
-    background: white;
-    max-width: 400px;
-    max-height: 100%;
-    border-radius: 10px;
-    width: 512px;
-    height: 194px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, .8);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 600px;
+    height: 300px;
     left: 199px;
     top: 279px;
 }
 
  .sub-header .header-bloc .logo{
-    width: 304px;
-    height: 71px;
-    left: 207px;
-    top: 215px;
-    font-family: 'poppins', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
  }
+
+.sub-header .header-bloc .mot{
+    color: black;
+  
+    font-size: 20px;
+    font-weight: 400;
+}
  
+ .btn{
+    background: linear-gradient(bisque, pink);
+    font-size: 20px;
+    width: 30%;
+    height: 15%;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background: linear-gradient rgb(238, 135, 9), rgb(187, 218, 50);
+}
