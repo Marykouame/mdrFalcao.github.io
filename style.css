@@ -1,6 +1,4 @@
-
-   *{
-    padding: 0;
+ *{ padding: 0;
 margin: 0;
 font-family:'poppins',sans-serif;
 text-decoration: none;
@@ -144,7 +142,7 @@ main .main1{
     font-weight: 400;
     letter-spacing: .5px;
     line-height: 22px;
-    color: #000;
+    color:blue
     margin-bottom: 14px;
 }
 .main1 .grid .content .description{
@@ -157,16 +155,57 @@ main .main1{
 
 footer .pied{
     background: black;
+    display: flex;
+    text-align: center;
     width: 100%;
     height: 200px;
+    justify-content: space-around;
  }
 
-footer .pied .info a{
-    color: white;
-    font-size: 16px;
+.pied .contact .title {
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+    text-decoration: underline;
+
+}
+.pied .contact .span{
+    color:#FFFFFF;
+    font-size: 15px;
+}
+.pied .info{
     display: flex;
-    align-items: center;
-    justify-content:flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.pied .info .title {
+    color:black;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: underline;
+
+}
+.pied .info a{
+    color: white;
+    text-align: center environment;
+    font-size: 15px;
+    text-decoration: underline;
+   
+
 }
 
-
+.copyrigth{
+    width: 100%;
+    height: 2rem;
+    background: #555;
+}
+.copyrigth .copy {
+   color:black;
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: center;
+}
+.copyrigth .copy span{
+    color: fuchsia;
+}
