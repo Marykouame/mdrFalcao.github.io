@@ -1,26 +1,25 @@
-
-   *{
+* {
     padding: 0;
-margin: 0;
-font-family:'poppins',sans-serif;
-text-decoration: none;
-box-sizing: border-box;
-scroll-behavior: smooth;
-text-transform: capitalize;
-outline: none;
-border: none;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
 }
-    
-    
-section{
+
+
+section {
     padding: 5rem 10%;
 }
 
-body{
-    background: white;
+body {
+    background: rgba(255, 255, 255, 0.966);
 }
 
-.header{
+.header {
     position: sticky;
     top: 0;
     left: 0;
@@ -33,41 +32,51 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
-.header .navbar{
+.header .navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.header .navbar a{
+
+.header .navbar a {
     color: black;
     font-size: 25px;
     font-weight: 600;
     padding: 0 20px;
 }
-.header .navbar a:hover{
+
+.header .navbar a:hover {
     color: fuchsia;
     text-decoration: underline;
 }
 
+.grand-tail {
+    background-color: rgb(209, 172, 155);
+    display: inline-block;
+}
 
-main .card{
+main .card {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-main .card .bloc{
+
+main .card .bloc {
     flex-direction: column;
     padding: 20px 0;
+
 }
-main .card .bloc .title{
+
+main .card .bloc .title {
     text-align: center;
     font-size: 1rem;
     color: rgb(40, 147, 173);
     padding: 20px 0;
 }
- .bloc ul li{
+
+.bloc ul li {
     color: black;
     font-size: 17px;
 }
@@ -75,14 +84,14 @@ main .card .bloc .title{
 
 
 
-footer .pied{
+footer .pied {
     background: black;
     display: flex;
     text-align: center;
     width: 100%;
     height: 200px;
     justify-content: space-around;
- }
+}
 
 .pied .contact .title {
     color: white;
@@ -94,11 +103,12 @@ footer .pied{
 
 }
 
-.pied .info{
+.pied .info {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
+
 .pied .info .title {
     color: white;
     text-align: center;
@@ -106,52 +116,56 @@ footer .pied{
     text-decoration: underline;
 
 }
-.pied .info a{
+
+.pied .info a {
     color: white;
     text-align: center;
     font-size: 15px;
     text-decoration: underline;
-   
+
 
 
 }
 
-.copyrigth{
+.copyrigth {
     width: 100%;
     height: 2rem;
     background: #555;
 }
+
 .copyrigth .copy {
-   color: white;
-   font-size: 1rem;
-   font-weight: 300;
-   text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
 }
-.copyrigth .copy span{
+
+.copyrigth .copy span {
     color: fuchsia;
 }
-   *{
+
+* {
     padding: 0;
-margin: 0;
-font-family:'poppins',sans-serif;
-text-decoration: none;
-box-sizing: border-box;
-scroll-behavior: smooth;
-text-transform: capitalize;
-outline: none;
-border: none;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
 }
-    
-    
-section{
+
+
+section {
     padding: 5rem 10%;
 }
 
-body{
+body {
     background: white;
 }
 
-.header{
+.header {
     position: sticky;
     top: 0;
     left: 0;
@@ -164,41 +178,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
-.header .navbar{
+.header .navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.header .navbar a{
+
+.header .navbar a {
     color: black;
     font-size: 25px;
     font-weight: 600;
     padding: 0 20px;
 }
-.header .navbar a:hover{
+
+.header .navbar a:hover {
     color: fuchsia;
     text-decoration: underline;
 }
 
 
-main .card{
+main .card {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-main .card .bloc{
+
+main .card .bloc {
     flex-direction: column;
     padding: 15px 0;
 }
-main .card .bloc .title{
+
+main .card .bloc .title {
     text-align: center;
-    font-size: 3rem;
-    color: rgb(40, 147, 173);
-    padding: 10px 0;
+    font-size: 1rem;
+    color: rgb(235, 9, 114);
+    padding: 40px 0;
 }
- .bloc ul li{
+
+.bloc ul li {
     color: black;
     font-size: 17px;
 }
@@ -206,14 +225,14 @@ main .card .bloc .title{
 
 
 
-footer .pied{
+footer .pied {
     background: black;
     display: flex;
     text-align: center;
     width: 100%;
     height: 200px;
     justify-content: space-around;
- }
+}
 
 .pied .contact .title {
     color: white;
@@ -222,14 +241,22 @@ footer .pied{
     margin-top: 100px;
     text-decoration: underline;
     margin-right: 20px;
-
 }
 
-.pied .info{
+.imo > img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.pied .info {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    justify-content: inherit;
 }
+
 .pied .info .title {
     color: white;
     text-align: center;
@@ -237,27 +264,30 @@ footer .pied{
     text-decoration: underline;
 
 }
-.pied .info a{
+
+.pied .info a {
     color: white;
     text-align: center;
     font-size: 15px;
     text-decoration: underline;
-   
+
 
 
 }
 
-.copyrigth{
+.copyrigth {
     width: 100%;
     height: 2rem;
     background: #555;
 }
+
 .copyrigth .copy {
-   color: white;
-   font-size: 1rem;
-   font-weight: 300;
-   text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
 }
-.copyrigth .copy span{
+
+.copyrigth .copy span {
     color: fuchsia;
 }
